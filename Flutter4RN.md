@@ -1,4 +1,4 @@
-Why Flutter exitement me?
+Why Flutter excitement me?
 ===
 
 ENDO Yasuyuki ( [@eyasuyuki](https://twitter.com/eyasuyuki) )
@@ -18,13 +18,33 @@ https://github.com/eyasuyuki
 
 ---
 
-# Official Flutter website
+# Official website
+
+## Flutter
 
 https://flutter.dev/
 
+## Dart
+
+https://www.dartlang.org/
+
 ---
 
-# Why Flutter exitement me?
+# Examples - Simple YouTube Player
+
+## React Native version
+
+From Barry Michael Doyle's tutorial.
+
+https://github.com/eyasuyuki/SimpleYouTubePlayer
+
+## Flutter version
+
+https://github.com/eyasuyuki/simple-youtube-player
+
+---
+
+# Why Flutter excitement me?
 
 - Easy to install
 - Dart2 is simple
@@ -42,6 +62,7 @@ https://flutter.dev/
 4. Install plugin to Android Studio/Visual Studio Code
 5. Run iOS Simulator/Android emulator
 6. ```flutter create -a kotlin -i swift <project_name>```
+7. Update to new version ```flutter upgrade```
 
 ---
 
@@ -50,7 +71,7 @@ https://flutter.dev/
 - Everithing is Object
 - Class based object oriented language
 - Strongly typed programming language
-- ```this``` keyword refers current instance
+- ```this``` keyword refers current instance (like Java)
 - ```===``` operator was not suppurted
 - ```true``` is ```true```, other all (1 or [] or 'true' or '1'...)  are ```false```
 
@@ -60,13 +81,15 @@ https://flutter.dev/
 
 Demo
 
+[![Flutter hot-reload demo](https://img.youtube.com/vi/Mjn4B6CeMoU/sddefault.jpg)](https://youtu.be/Mjn4B6CeMoU)
+
 ---
 
 # Everything is Widget
 
 - ```StatelessWiget```
 - ```StatefulWidget```
-- No ```layout.xml``` or Storybooard
+- No ```layout.xml``` or Storyboard
 - Material design
   - ```MaterialApp```, ```Scafold```
 - Cupertino (iOS-style) widgets
@@ -104,3 +127,4 @@ Demo
 - Windows application development
 - Web application development
   - Hummingbird project
+

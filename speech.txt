@@ -2,10 +2,10 @@ Flutterはなぜ楽しいのか、というテーマで発表します。
 
 ---1
 
-私は遠藤と申します。
+遠藤と申します。
 今年の3月から無職になりまして休職中です。
 
-2009年からAndroid開発を行っていまして
+Android開発を2009年から行っていまして
 2016年に某大学の公式iOS/Androidアプリを開発しました。
 
 Flutterを始めたのは今年の3月からです。
@@ -15,19 +15,19 @@ React Native経験は約2週間です。
 
 ---2
 
-Flutterの公式Webサイトはこちらです。
+FlutterとDartの公式Webサイトはこちらです。
 
 ---3
 
-今回 React NativeとFlutterの比較のために用意した
-YouTubeを一覧表示するサンプルプログラムです。
+今回 React NativeとFlutterの比較のために
+YouTubeを一覧表示するサンプルプログラムを用意しました。
 
 React NativeバージョンはBarry Michael Doyleさんの
 チュートリアルそのままです。
 
 FlutterバージョンはDartのコードサイズが5K以内という
 条件で募集したFlutterCreateというコンテストに応募した
-もので最小限の昨日になっています。
+もので最小限の機能になっています。
 
 ---4
 
