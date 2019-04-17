@@ -68,6 +68,7 @@ https://github.com/eyasuyuki/simple-youtube-player
 
 # Dart2 is simple
 
+- Less *darkside* than JS
 - Everithing is Object
 - Class based object oriented language
 - Strongly typed programming language
