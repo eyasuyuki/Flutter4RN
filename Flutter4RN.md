@@ -7,7 +7,7 @@ ENDO Yasuyuki ( [@eyasuyuki](https://twitter.com/eyasuyuki) )
 
 # About me
 
-ENDO Yasuyuki (2019/03~ freerance)
+ENDO Yasuyuki (2019/03~ freelance)
 
 https://github.com/eyasuyuki
 
@@ -18,15 +18,23 @@ https://github.com/eyasuyuki
 
 ---
 
-# Official website
+# Websites
 
-## Flutter
+## Flutter Official Website
 
 https://flutter.dev/
 
-## Dart
+## Dart Official Website
 
 https://www.dartlang.org/
+
+## Japan Flutter User Group
+
+https://flutter-jp.connpass.com/
+
+## Dartlang Users JP - Slack
+
+http://dartlang-users-jp-invite.herokuapp.com/
 
 ---
 
@@ -68,13 +76,20 @@ https://github.com/eyasuyuki/simple-youtube-player
 
 # Dart2 is simple
 
-- Less *darkside* than JS
-- Everithing is Object
+- Less *dark-side* than JS
+- Everything is Object
 - Class based object oriented language
 - Strongly typed programming language
 - ```this``` keyword refers current instance (like Java)
-- ```===``` operator was not suppurted
-- ```true``` is ```true```, other all (1 or [] or 'true' or '1'...)  are ```false```
+- Higher order function ```map, filter, fold```
+- ```===``` operator was not supported (use ```identical```)
+- ```==``` operator is appropriate
+
+---
+
+https://twitter.com/fran_wernke/status/1115074586415071234
+
+![](https://pbs.twimg.com/media/D3mKbKlWwAE2FIa.jpg)
 
 ---
 
@@ -92,7 +107,7 @@ Demo
 - ```StatefulWidget```
 - No ```layout.xml``` or Storyboard
 - Material design
-  - ```MaterialApp```, ```Scafold```
+  - ```MaterialApp```, ```Scaffold```
 - Cupertino (iOS-style) widgets
 
 ---
@@ -104,25 +119,25 @@ Demo
 - CLI commands
   - ```flutter doctor```
   - ```flutter create -a kotlin -i swift <project_name>```
-  - Run ```flutter packages get``` after edinig ```pubspec.yaml```
+  - Run ```flutter packages get``` after editing ```pubspec.yaml```
   - ```dartfmt```
 
 ---
 
 # High productivity (2/2)
 
-- Asynchronus programming
+- Asynchronous programming
   - Future
   - async/await
   - *Stream*
 - BLoC pattern
   - **B**usiness **Lo**gic **C**omponent
-- Lot of pagkages
+- Lot of packages
   - Firebase, etc.
 
 ---
 
-# Comming feutures
+# Coming features
 
 - macOS application development
 - Windows application development
