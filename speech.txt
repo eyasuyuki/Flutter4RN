@@ -17,7 +17,7 @@ React Native経験は約2週間です。
 
 Flutter と Dart の公式 Web サイトはこちらです。
 
-日本の Flutter ユーザーグループと Dart の Slack チャンネルです。
+日本の Flutter ユーザーグループと Dart の Slack ワークスペースです。
 
 ---3
 
