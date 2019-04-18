@@ -81,14 +81,13 @@ https://github.com/eyasuyuki/simple-youtube-player
 - Class based object oriented language
 - Strongly typed programming language
 - ```this``` keyword refers current instance (like Java)
-- Higher order function ```map, filter, fold```
+- Higher order function supported ```map, filter, fold```
 - ```===``` operator was not supported (use ```identical```)
 - ```==``` operator is appropriate
 
 ---
 
 https://twitter.com/fran_wernke/status/1115074586415071234
-
 ![](https://pbs.twimg.com/media/D3mKbKlWwAE2FIa.jpg)
 
 ---
@@ -103,7 +102,7 @@ Demo
 
 # Everything is Widget
 
-- ```StatelessWiget```
+- ```StatelessWidget```
 - ```StatefulWidget```
 - No ```layout.xml``` or Storyboard
 - Material design
@@ -112,7 +111,7 @@ Demo
 
 ---
 
-# Hight pdocutivity (1/2)
+# Hight productivity (1/2)
 
 - Android Studio debugger
 - Show closing labels in Dart cord
