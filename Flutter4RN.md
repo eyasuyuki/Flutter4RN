@@ -93,6 +93,10 @@ https://www.dartlang.org/guides/language/language-tour#important-concepts
 ---
 # Class based object oriented language
 
+https://www.dartlang.org/guides/language/language-tour#classes
+
+![Dart class example](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-class.png)
+
 ---
 # Strongly typed programming language
 
@@ -113,7 +117,7 @@ main() {
 main() {
   dynamic x = 5;
   print(x);
-  
+
   x = 'text';
   print(x);
 }
@@ -122,11 +126,48 @@ main() {
 ---
 # ```this``` keyword refers current instance (like Java)
 
+https://www.dartlang.org/guides/language/language-tour#constructors
+
+```dart
+class Point {
+  num x, y;
+
+  Point(num x, num y) {
+    this.x = x;
+    this.y = y;
+  }
+}
+```
+
 ---
-# Higher order function supported ```map, filter, fold```
+# ```map, filter, fold``` and more methods supported by ```List``` class
+
+https://api.dartlang.org/stable/2.2.0/dart-core/List-class.html
+
+![](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-map.png)
 
 ---
 # ```===``` operator was not supported (use ```identical```)
+
+https://api.dartlang.org/stable/2.2.0/dart-core/identical.html
+
+```dart
+class X {
+  final String _value;
+
+  X(this._value);
+}
+
+main() {
+  var a = X('a');
+  var b = X('a');
+  print(identical(a, b)); // false
+
+  var p = X('b');
+  var q = p;
+  print(identical(p, q)); // true
+}
+```
 
 ---
 # ```==``` operator is appropriate
