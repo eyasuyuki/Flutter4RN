@@ -76,16 +76,60 @@ https://github.com/eyasuyuki/simple-youtube-player
 
 # Dart2 is simple
 
-- Less *dark-side* than JS
-- Everything is Object
-- Class based object oriented language
-- Strongly typed programming language
-- ```this``` keyword refers current instance (like Java)
-- Higher order function supported ```map, filter, fold```
-- ```===``` operator was not supported (use ```identical```)
-- ```==``` operator is appropriate
+https://www.dartlang.org/guides/language
+
+![Dart Language](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-language.png)
 
 ---
+
+# Everything is Object
+
+https://www.dartlang.org/guides/language/language-tour#important-concepts
+
+- Every object is an instance of class
+- numbers, functions, and ```null``` are object
+- All object inherit from ```Object``` class
+
+---
+# Class based object oriented language
+
+---
+# Strongly typed programming language
+
+https://www.dartlang.org/guides/language/sound-dart
+
+## Type inference
+```dart
+main() {
+  var x = 5;
+  print(x);
+
+  x = 'text'; // compile error
+}
+```
+
+## ```dynamic``` type
+```dart
+main() {
+  dynamic x = 5;
+  print(x);
+  
+  x = 'text';
+  print(x);
+}
+
+```
+---
+# ```this``` keyword refers current instance (like Java)
+
+---
+# Higher order function supported ```map, filter, fold```
+
+---
+# ```===``` operator was not supported (use ```identical```)
+
+---
+# ```==``` operator is appropriate
 
 https://twitter.com/fran_wernke/status/1115074586415071234
 ![](https://pbs.twimg.com/media/D3mKbKlWwAE2FIa.jpg)
