@@ -223,7 +223,9 @@ Demo
 - CLI commands
   - ```flutter doctor```
   - ```flutter create -a kotlin -i swift <project_name>```
+  - ```flutter run```
   - Run ```flutter packages get``` after editing ```pubspec.yaml```
+  - ```flutter clean```
   - ```dartfmt```
 
 ---
