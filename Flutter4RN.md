@@ -75,9 +75,7 @@ https://github.com/eyasuyuki/simple-youtube-player
 ---
 
 # Dart2 is simple
-
 https://www.dartlang.org/guides/language
-
 ![Dart Language](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-language.png)
 
 ---
@@ -97,12 +95,14 @@ https://www.dartlang.org/guides/language/language-tour#classes
 
 ![Dart class example](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-class.png)
 
+
 ---
 # Strongly typed programming language
 
 https://www.dartlang.org/guides/language/sound-dart
 
 ## Type inference
+code example
 ```dart
 main() {
   var x = 5;
@@ -112,7 +112,10 @@ main() {
 }
 ```
 
+---
+
 ## ```dynamic``` type
+code example
 ```dart
 main() {
   dynamic x = 5;
@@ -121,13 +124,13 @@ main() {
   x = 'text';
   print(x);
 }
-
 ```
 ---
 # ```this``` keyword refers current instance (like Java)
 
 https://www.dartlang.org/guides/language/language-tour#constructors
 
+code example
 ```dart
 class Point {
   num x, y;
@@ -151,6 +154,7 @@ https://api.dartlang.org/stable/2.2.0/dart-core/List-class.html
 
 https://api.dartlang.org/stable/2.2.0/dart-core/identical.html
 
+code example
 ```dart
 class X {
   final String _value;
@@ -170,10 +174,19 @@ main() {
 ```
 
 ---
-# ```==``` operator is appropriate
 
 https://twitter.com/fran_wernke/status/1115074586415071234
-![](https://pbs.twimg.com/media/D3mKbKlWwAE2FIa.jpg)
+![JavaScript equality](https://pbs.twimg.com/media/D3mKbKlWwAE2FIa.jpg)
+
+---
+# ```==``` operator is appropriate
+
+code example
+```dart
+0 == "0" // false
+0 == [] // false
+"0" == [] // false
+```
 
 ---
 
@@ -196,10 +209,17 @@ Demo
 
 ---
 
-# Hight productivity (1/2)
+# Hight productivity (1/3)
 
 - Android Studio debugger
 - Show closing labels in Dart cord
+
+![Dart class example](https://raw.githubusercontent.com/eyasuyuki/Flutter4RN/master/images/dart-class.png)
+
+---
+
+# Hight productivity (2/3)
+
 - CLI commands
   - ```flutter doctor```
   - ```flutter create -a kotlin -i swift <project_name>```
@@ -208,7 +228,7 @@ Demo
 
 ---
 
-# High productivity (2/2)
+# High productivity (3/3)
 
 - Asynchronous programming
   - Future
@@ -227,4 +247,3 @@ Demo
 - Windows application development
 - Web application development
   - Hummingbird project
-
