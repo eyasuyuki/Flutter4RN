@@ -122,7 +122,7 @@
 
 # 20
 
-- インストールで説明したflutter doctorやflutter create、ライブラリを取得するflutter pagkages getなど便利なCLIコマンドが使えますが、地味に便利なのがソースコードを整形するdartfmtです。
+- インストールで説明したflutter doctorやflutter create、ライブラリを取得するflutter pagkages get、ビルドして実行するflutter run, ビルドファイルを削除するflutter cleanなど便利なCLIコマンドが使えますが、地味に便利なのがソースコードを整形するdartfmtです。
 - Goのgofmtと同じように複数の開発者がいる場合にコードスタイルを統一することができます。
 - エディターのFlutterプラグインではファル保存時にdartfmtでコード整形することができます。
 
